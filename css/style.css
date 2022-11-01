@@ -398,6 +398,11 @@
   .github-link {
     margin-top: 1rem;
     font-size: 1.25rem;
+    width: fit-content;
+  }
+
+  .nav-link {
+    padding: 1rem;
   }
 
   .fa-brands {
