@@ -391,6 +391,14 @@
     }
   }
   
+  .nav-section > a {
+    padding: 1rem;
+  }
+
+  .fa-brands {
+    padding: 1rem;
+  }
+
   .interactable {
     transition: opacity 400ms ease;
   }
