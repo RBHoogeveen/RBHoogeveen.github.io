@@ -177,12 +177,16 @@
   main > article:nth-child(2) > .article-image-section {
     background-image: url("../img/Pokedex.png");
   }
-  
+
   main > article:nth-child(3) > .article-image-section {
-    background-image: url("../img/Revealjs.png");
+    background-image: url("../img/Goods4Ukraine.png");
   }
   
   main > article:nth-child(4) > .article-image-section {
+    background-image: url("../img/Revealjs.png");
+  }
+  
+  main > article:nth-child(5) > .article-image-section {
     background-image: url("../img/Website.png");
   }
   
