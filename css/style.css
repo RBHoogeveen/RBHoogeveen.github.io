@@ -391,8 +391,13 @@
     }
   }
   
-  .nav-section > a {
+  .nav-section > a > i {
     padding: 1rem;
+  }
+
+  .github-link {
+    margin-top: 1rem;
+    font-size: 1.25rem;
   }
 
   .fa-brands {
