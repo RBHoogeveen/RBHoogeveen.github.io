@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ruben Benjamin Hoogeveen</title>
+    <meta>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/navigation.js"></script>
+    <script src="js/SmartCursor.js"></script>
+    <script src="https://kit.fontawesome.com/8a2b525e67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="trailer">
+        <i id="trailer-icon" class="fa-solid fa-arrow-up-right-from-square"></i>
+    </div>
+    <nav data-toggled="false" data-transitionable="false">
+        <div id="nav-logo-section" class="nav-section">
+          <a href="#">
+            <img src="img/{rbh}.svg" alt="logo">
+          </a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="https://www.linkedin.com/in/ruben-hoogeveen/" target="_blank" class="SC-block">ABOUT</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://www.linkedin.com/in/ruben-hoogeveen/" target="_blank" class="SC-block">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/RBHoogeveen/" target="_blank" class="SC-block">
+                <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="mailto:rbhoogeveen@gmail.com" target="_blank" class="SC-block">GET IN TOUCH</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Menu</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      
+      <main>
+        <article data-index="0" data-status="active">
+          <a href="https://github.com/RBHoogeveen/PokedexApp-IOS" target="_blank" data-type="link" class="interactable SC-block article-image-section article-section"></a>
+          <div class="article-description-section article-section">
+            <p class="SC-text">
+              Welcome to my portfolio, my name is <a class="source-link" href="https://github.com/RBHoogeveen" target="_blank">Ruben</a>.<br> <br>
+              I am a 21 year old student from the Netherlands, currently studying Computer Science at InHolland Haarlem.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2 class="SC-text">Hey there!</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </article>
+        <article data-index="1" data-status="inactive">    
+          <a href="https://github.com/RBHoogeveen/PokedexApp-IOS" target="_blank" data-type="link" class="interactable SC-block article-image-section article-section"></a>
+          <div class="article-description-section article-section">
+            <p class="SC-text">
+                A Pokédex app. 
+                <br><br>
+                This app is made for the iOS platform and is made with SwiftUI.
+                This was made for an assignment during the Mobile Development minor.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+              <h2 class="SC-text">Pokédex App</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </article>
+        <article data-index="2" data-status="inactive">    
+          <a href="https://github.com/RBHoogeveen/Eindpresentatie-stage" target="_blank" data-type="link" class="interactable SC-block article-image-section article-section"></a>
+          <div class="article-description-section article-section">
+            <p class="SC-text">For the end-presentation of my internship in year 3,<br> I made a slides presentation using <a href="https://revealjs.com/" target="_blank">Reveal.js</a>.</p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2 class="SC-text">End-presentation internship year 3</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </article>
+        <article data-index="3" data-status="inactive">    
+          <a href="https://github.com/RBHoogeveen/RBHoogeveen.github.io/" target="_blank" data-type="link" class="interactable SC-block article-image-section article-section"></a>
+          <div class="article-description-section article-section">
+            <p class="SC-text">
+              You can find the source-code for this site right <a href="https://github.com/RBHoogeveen/RBHoogeveen.github.io/" target="_blank">here</a>.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2 class="SC-text">This website</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </article>
+      </main>
+</body>
+</html>
